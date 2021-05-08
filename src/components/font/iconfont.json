@@ -1,0 +1,79 @@
+{
+  "id": "2519915",
+  "name": "jh-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6805258",
+      "name": "Switch-4",
+      "font_class": "Switch-",
+      "unicode": "e932",
+      "unicode_decimal": 59698
+    },
+    {
+      "icon_id": "6808247",
+      "name": "Switch-5",
+      "font_class": "Switch-1",
+      "unicode": "ed62",
+      "unicode_decimal": 60770
+    },
+    {
+      "icon_id": "12579528",
+      "name": "switch",
+      "font_class": "switch1",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "21302924",
+      "name": "浏览",
+      "font_class": "liulan",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "7548848",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "7549346",
+      "name": "关闭",
+      "font_class": "RectangleCopy",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "7549347",
+      "name": "完成",
+      "font_class": "RectangleCopy1",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "7549350",
+      "name": "用户",
+      "font_class": "RectangleCopy2",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "7549359",
+      "name": "拒绝",
+      "font_class": "RectangleCopy3",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "7549369",
+      "name": "关闭",
+      "font_class": "RectangleCopy4",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    }
+  ]
+}
