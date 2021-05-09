@@ -1,11 +1,12 @@
 <template>
   <div>
-      <label 
+      <label
       :class='["switch-label",{"switch-label-on":value}]' 
       @click="switchChange"
       ref="swLabel">
           <span :class='["switch-core",{"switch-core-on":value}]'></span>
       </label>
+      <input  type="checkbox" ref="checkbox" :name="name" style="display:contents">
   </div>
 </template>
 
@@ -13,6 +14,10 @@
 export default {
     name:"jh-switch",
     props:{
+        name:{
+            type:String,
+            dafalut:''
+        },
         value:{
             type:Boolean,
             default:false
@@ -43,11 +48,13 @@ export default {
     },
     watch:{
         value(){
+            this.$refs.checkbox.checked=this.value
             this.setColor()
         }
     },
     mounted(){
         this.setColor()
+        this.$refs.checkbox.checked=this.value
     }
 }
 </script>
