@@ -27,12 +27,8 @@ export default {
         name:String,
         id:String,
         value:String,
-        placeholder:{
-            type:String,
-        },
-        type:{
-            type:String
-        },
+        placeholder:String,
+        type:String,
         disabled:{
             type:Boolean,
             default:false
