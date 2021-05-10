@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style >
+<style scope>
 .switch-label{
     display: block;
     width: 30px;
