@@ -24,19 +24,22 @@ export default {
     label: null,
     name: String,
   },
-  inject:{
-      //接收radio-group的provide
-      groupValue:{
-          default:undefined
-      }
+  inject: {
+    //接收radio-group的provide
+    groupValue: {
+      default: undefined,
+    },
   },
   computed: {
+    //v-model不能直接监听props的value，故使用computed
     fatherValue: {
       set(value) {
-        this.groupValue?this.groupValue.$emit("input",value):this.$emit("input", value);
+        this.groupValue
+          ? this.groupValue.$emit("input", value)
+          : this.$emit("input", value);
       },
       get() {
-        return this.groupValue?this.groupValue.value:this.value;
+        return this.groupValue ? this.groupValue.value : this.value;
       },
     },
   },
