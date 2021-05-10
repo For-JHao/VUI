@@ -1,16 +1,21 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2519915 */
-  src: url('iconfont.woff2?t=1620469519661') format('woff2'),
-       url('iconfont.woff?t=1620469519661') format('woff'),
-       url('iconfont.ttf?t=1620469519661') format('truetype');
+  src: url('iconfont.woff2?t=1620656996543') format('woff2'),
+       url('iconfont.woff?t=1620656996543') format('woff'),
+       url('iconfont.ttf?t=1620656996543') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 25px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gou:before {
+  content: "\e650";
+  font-size: smaller;
 }
 
 .icon-Switch-:before {
