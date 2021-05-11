@@ -1,12 +1,19 @@
 # jh-ui
 ## This is a ui component library based on Vue2, which own a light color and simple style
 
-#使用 
+## 安装
+
 npm install jh-ui-vue
-#全局导入
+
+## 全局导入
+
 import Jhui from ‘jh-ui-vue’
+
 import 'jh-ui-vue/dist/jh-ui.css'
+
 Vue.use(Jhui)
+
+
 
 
 ## jh-button
