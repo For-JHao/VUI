@@ -1,6 +1,6 @@
 {
-  "name": "jh-ui",
-  "version": "0.1.0",
+  "name": "jh-ui-vue",
+  "version": "1.0.0",
   "private": false,
   "main": "dist/jh-ui.umd.min.js",
   "author": {
