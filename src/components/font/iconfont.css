@@ -16,6 +16,7 @@
 .icon-gou:before {
   content: "\e650";
   font-size: smaller;
+  color: rgb(46, 163, 179);
 }
 
 .icon-Switch-:before {
