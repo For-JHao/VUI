@@ -64,7 +64,7 @@ export default {
     display: block;
     width: 30px;
     height: 8px;
-    border: 1.5px solid black;
+    border: 1.5px solid #67b0b9;
     border-radius: 8px;
     position: relative;
     transition: all 0.35s ease;
@@ -74,7 +74,7 @@ export default {
     width: 8px;
     height: 8px;
     background-color: white;
-    border: 1.5px solid black;
+    border: 1.5px solid #8fabcc;
     border-radius: 6px;
     position: absolute;
     top: -1px;
@@ -83,9 +83,9 @@ export default {
 }
 .switch-core-on{
     left: 21px;
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(70, 128, 204);
 }
 .switch-label-on{
-    background-color: rgb(189, 187, 185);
+    background-color: rgba(189, 187, 185, 0.76);
 }
 </style>

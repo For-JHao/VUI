@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="jh-input">
       <input 
       :name="name"
       :id="id"
@@ -8,6 +8,7 @@
       :disabled="disabled" 
       :value="value"
       @input="userInput"
+      class="base-style"
       :class='{"is-disabled":disabled}'/>
        <span style="position:relative">
            <i :class='["iconfont", "icon-jian", {"clearable": type=="password"? false:clearable}]'
@@ -51,7 +52,11 @@ export default {
 }
 </script>
 
-<style scope>
+<style lang="scss" scope>
+.base-style{
+    border:1px solid rgb(157 177 208);
+    border-radius: 3px;
+}
 .is-disabled{
     cursor: not-allowed;
 }
