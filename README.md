@@ -1,6 +1,15 @@
 # jh-ui
 ## This is a ui component library based on Vue2, which own a light color and simple style
 
+#使用 
+npm install jh-ui-vue
+#全局导入
+import Jhui from ‘jh-ui-vue’
+import 'jh-ui-vue/dist/jh-ui.css'
+Vue.use(Jhui)
+
+
+
 jh-botton
 属性	功能	参数值	默认值	类型
 type	按钮类型	confirm, message, remind, warning	无	string
