@@ -18,7 +18,7 @@ Vue.use(Jhui)
 
 ## jh-button
 
-![](https://github.com/For-JHao/jh-ui/blob/main/readMedia/buttonDisplay.png)
+![](.\readMedia\buttonDisplay.png)
 
 | 属性     | 功能     | 参数值                            | 默认值 | 类型    |
 |----------|----------|----------------------------------|-------|---------|
@@ -128,5 +128,4 @@ jh-form-item
 
 ### 补充说明
 额外样式可以在组件标签内用style添加
-
 
