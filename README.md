@@ -18,7 +18,7 @@ Vue.use(Jhui)
 
 ## jh-button
 
-![](.\readMedia\buttonDisplay.png)
+![](https://github.com/For-JHao/jh-ui/blob/main/readMedia/buttonDisplay.png?raw=true)
 
 | 属性     | 功能     | 参数值                            | 默认值 | 类型    |
 |----------|----------|----------------------------------|-------|---------|
